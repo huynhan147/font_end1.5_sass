@@ -1,0 +1,233 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url("../fonts/Montserrat-ExtraBold.ttf"); }
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../fonts/Montserrat-Regular.ttf"); }
+
+.container {
+  width: 100%;
+  min-height: 60vw;
+  position: relative; }
+  .container .wrapper {
+    margin: 3.4vw 3.4vw 0vw 5vw;
+    width: 90%;
+    max-height: 96%;
+    position: absolute;
+    top: 0px;
+    z-index: 2; }
+    .container .wrapper .word-header {
+      color: #FFD133;
+      font-size: 3vw;
+      font-family: "Montserrat-ExtraBold";
+      text-align: right;
+      height: 15vw; }
+      .container .wrapper .word-header .word-header-2 {
+        font-size: 7.5vw;
+        text-transform: uppercase;
+        float: left; }
+        .container .wrapper .word-header .word-header-2 .slogen {
+          display: flex;
+          flex-direction: column;
+          line-height: 4.2vw;
+          color: white;
+          padding-left: 0.4vw; }
+          .container .wrapper .word-header .word-header-2 .slogen span.small {
+            font-size: 2vw;
+            font-family: "Montserrat-Regular";
+            padding-right: 2vw; }
+          .container .wrapper .word-header .word-header-2 .slogen .big {
+            font-size: 8vw;
+            padding-left: 3.8vw;
+            padding-top: 2vw; }
+      .container .wrapper .word-header .word1 {
+        padding-top: 1.5vw;
+        padding-right: 3.4vw; }
+        .container .wrapper .word-header .word1 img {
+          width: 5.7vw;
+          height: 2vw; }
+    .container .wrapper .word-content1 {
+      color: white;
+      text-align: right;
+      line-height: 5.7vw;
+      height: 38vw;
+      position: relative; }
+      .container .wrapper .word-content1 .word {
+        position: absolute;
+        top: 3.8vw;
+        right: 0vw;
+        padding-right: 2.7vw;
+        padding-top: 0px; }
+        .container .wrapper .word-content1 .word .small {
+          font-size: 3.8vw;
+          font-family: "Montserrat-Regular";
+          text-transform: uppercase;
+          font-weight: bold; }
+        .container .wrapper .word-content1 .word .big {
+          font-family: "Montserrat-ExtraBold";
+          font-size: 7.5vw;
+          color: #FBCE2F;
+          text-transform: uppercase; }
+        .container .wrapper .word-content1 .word .word-content {
+          line-height: 2.2vw;
+          font-size: 1.6vw;
+          padding-top: 2.7vw;
+          font-family: "Montserrat-Regular"; }
+      .container .wrapper .word-content1 .word2 {
+        line-height: 2vw;
+        text-align: left;
+        font-family: "Montserrat-Regular";
+        font-size: 1.6vw;
+        padding-top: 20vw;
+        padding-left: 5vw; }
+        .container .wrapper .word-content1 .word2 img {
+          width: 5.7vw;
+          height: 2vw; }
+    .container .wrapper .word-content2 {
+      color: white;
+      position: relative; }
+      .container .wrapper .word-content2 .word1 {
+        text-align: left;
+        font-family: "Montserrat-Regular";
+        font-size: 2.6vw;
+        padding-top: 13.5vw;
+        padding-left: 5vw;
+        font-weight: bold; }
+        .container .wrapper .word-content2 .word1 img {
+          width: 5.7vw;
+          height: 2vw; }
+      .container .wrapper .word-content2 .word2 {
+        position: absolute;
+        top: 3.8vw;
+        right: 0vw;
+        padding-right: 2.6vw;
+        text-align: right; }
+        .container .wrapper .word-content2 .word2 img {
+          width: 2vw;
+          height: 5.7vw; }
+        .container .wrapper .word-content2 .word2 .big {
+          font-size: 7.5vw;
+          text-transform: uppercase;
+          font-family: "Montserrat-ExtraBold";
+          padding: 2vw 0vw 2vw 2vw; }
+        .container .wrapper .word-content2 .word2 .small {
+          font-size: 1.6vw;
+          font-family: "Montserrat-ExtraBold"; }
+    .container .wrapper .word-contact {
+      margin-top: 17vw;
+      font-size: 1.6vw;
+      font-family: "Montserrat-Regular";
+      font-weight: bold;
+      color: white;
+      width: 33.33%; }
+      .container .wrapper .word-contact .address {
+        display: flex;
+        padding: 1.2vw 1.2vw 1.2vw 0vw; }
+        .container .wrapper .word-contact .address img {
+          width: 3vw;
+          height: 3.8vw; }
+        .container .wrapper .word-contact .address p {
+          padding-left: 2vw;
+          padding-top: 1.2vw; }
+      .container .wrapper .word-contact .phone {
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
+        display: flex; }
+        .container .wrapper .word-contact .phone img {
+          width: 3.8vw;
+          height: 3.8vw; }
+        .container .wrapper .word-contact .phone p {
+          padding-left: 2vw;
+          padding-top: 1.2vw; }
+      .container .wrapper .word-contact .mail {
+        padding: 1.2vw 1.2vw 1.2vw 0vw;
+        display: flex; }
+        .container .wrapper .word-contact .mail img {
+          width: 3.8vw;
+          height: 3vw; }
+        .container .wrapper .word-contact .mail p {
+          padding-left: 2vw;
+          padding-top: 1.2vw; }
+      .container .wrapper .word-contact .link {
+        color: #FBCE2F;
+        font-family: "Montserrat-ExtraBold";
+        font-size: 1.5vw;
+        padding: 2.5vw 1.2vw 1.2vw 0vw;
+        margin-top: 1.2vw; }
+    .container .wrapper .logo-footer {
+      display: flex;
+      float: right;
+      position: relative;
+      bottom: 5vw;
+      margin-right: 8vw;
+      padding-bottom: 2vw; }
+      .container .wrapper .logo-footer div {
+        padding-left: 5vw; }
+      .container .wrapper .logo-footer .logo1 img {
+        width: 12.5vw;
+        height: 4.5vw; }
+      .container .wrapper .logo-footer .logo2 img {
+        width: 4.5vw;
+        height: 4.5vw; }
+      .container .wrapper .logo-footer .logo3 img {
+        width: 4.5vw;
+        height: 4.5vw; }
+      .container .wrapper .logo-footer .logo4 img {
+        width: 4.5vw;
+        height: 4.5vw; }
+  .container .header {
+    width: 100%;
+    height: 19vw; }
+    .container .header .images {
+      float: right;
+      margin-top: 5vw;
+      width: 8vw;
+      height: 8vw;
+      background-color: #ffc709; }
+  .container .content1 {
+    width: 100%;
+    height: 37.5vw;
+    background-color: #242a31;
+    color: white; }
+    .container .content1 .image-content1 {
+      float: right; }
+      .container .content1 .image-content1 img {
+        width: 32vw;
+        height: 2.6vw; }
+  .container .content2 {
+    width: 100%;
+    height: 60vw;
+    background: url("../images/banner.jpg");
+    background-size: cover; }
+  .container .footer {
+    width: 100%;
+    min-height: 15vw;
+    background-color: #242a31; }
+  .container .first {
+    width: 68.67%;
+    height: 125%;
+    background-color: #18b3e2;
+    opacity: 0.5;
+    z-index: 1;
+    float: right; }
+  .container .contact {
+    width: 31.8%;
+    height: 37.5vw;
+    background-color: #242a31;
+    position: absolute;
+    bottom: 0px; }
+  .container .first-yellow {
+    width: 26.8%;
+    max-width: 28.6%;
+    height: 71.5%;
+    background-color: #ffc709;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    margin-left: 5%;
+    opacity: 0.9;
+    padding-right: 0px; }
