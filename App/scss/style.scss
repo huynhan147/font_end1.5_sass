@@ -4,6 +4,8 @@
 }
 $font_bold : "Montserrat-ExtraBold";
 $font_regular:"Montserrat-Regular";
+$color-main:"#FFC709";
+$color-background :"242a31";
 @font-face {
   font-family:Montserrat-ExtraBold;
   src: url("../fonts/Montserrat-ExtraBold.ttf");
@@ -228,13 +230,13 @@ $font_regular:"Montserrat-Regular";
       margin-top: 5vw;
       width: 8vw;
       height: 8vw;
-      background-color: #ffc709;
+      background-color: $color-main;
     }
   }
   .content1{
     width: 100%;
     height: 37.5vw;
-    background-color: #242a31;
+    background-color: $color-background;
     color: white;
     .image-content1{
       float :right;
@@ -253,7 +255,7 @@ $font_regular:"Montserrat-Regular";
     .footer{
       width: 100%;
       min-height: 15vw;
-      background-color: #242a31;
+      background-color: $color-background;
     }
     .first {
       width: 68.67%;
@@ -266,7 +268,7 @@ $font_regular:"Montserrat-Regular";
   .contact{
     width: 31.8%;
     height: 37.5vw;
-    background-color: #242a31;
+    background-color: $color-background;
     position: absolute;
     bottom :0px;
   }
@@ -274,7 +276,7 @@ $font_regular:"Montserrat-Regular";
     width: 26.8%;
     max-width:28.6%;;
     height: 71.5%;
-    background-color: #ffc709;
+    background-color: $color-main;
     position: absolute;
     top: 0px;
     z-index: 1;
